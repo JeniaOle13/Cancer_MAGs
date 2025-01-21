@@ -30,7 +30,8 @@ A non-redundant catalog of 3,816 genomes with at least 75% completeness and no m
 ## Computational pipeline
 The `conda` and/or `mamba` package management systems must be installed to run computational scripts. It is also required to create a snakemake working environment.
 
-> conda create -n snakemake -c bioconda snakemake \\
+> conda create -n snakemake -c bioconda snakemake
+
 > conda activate snakemake
 
 Before running scripts, rewrite `work_dir` path the paths to your project in all snakemake scripts. Also you need to specify paths for conda environments (`/envs/*yaml files`).
