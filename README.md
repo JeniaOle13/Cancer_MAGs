@@ -139,7 +139,7 @@ Results will be storage in folder:
 |Taxonomic annotation and assembly quality statistic|645 KB|[Zenodo](https://zenodo.org/records/14358262/files/statistics.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51062807)|
 |DNA extraction and sequencing methods|13 KB|[Zenodo](https://zenodo.org/records/14358262/files/methods.docx?download=1); [Figshare](https://figshare.com/ndownloader/files/51081881)|
 
-All MAGs sequences were deposited on NCBI under BioProject [PRJNA1196825](https://www.ncbi.nlm.nih.gov/bioproject/1196825).
+All MAGs sequences were deposited to NCBI under BioProject [PRJNA1196825](https://www.ncbi.nlm.nih.gov/bioproject/1196825).
 
 ## Studies links:
 1) [Frankel, Arthur E., et al. "Metagenomic shotgun sequencing and unbiased metabolomic profiling identify specific human gut microbiota and metabolites associated with immune checkpoint therapy efficacy in melanoma patients." Neoplasia 19.10 (2017): 848-855.](https://www.sciencedirect.com/science/article/pii/S1476558617302385)
