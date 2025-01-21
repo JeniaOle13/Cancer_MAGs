@@ -103,7 +103,8 @@ To run script execute in command line:
 These required `dRep` tool which must be installed via `conda` or `mamba`:
 
 > conda create -n drep -c bioconda drep
->conda activate drep
+
+> conda activate drep
 
 To run dereplication execute in command line with activated `dRep conda` environment:
 
@@ -117,6 +118,7 @@ Results:
 These required gtdb-tk tool which must be installed via conda or mamba:
 
 > conda create -n gtdbtk -c bioconda gtdbtk
+
 > conda activate gtdbtk
 
 Before running `gtdb-tk` taxonomic annotation, Genome Taxonomy Database (GTDB) can be downloaded from https://gtdb.ecogenomic.org/.
