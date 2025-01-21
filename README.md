@@ -167,6 +167,7 @@ Also, you can send your feedback to jeniaole01@gmail.com, vera.a.kanaeva@gmail.c
 
 ## Authors:
 MAGs assembly, pipeline developer: [Vera Kanaeva](https://scholar.google.ru/citations?hl=ru&user=Ie7RMLAAAAAJ) (Lopukhin FRCC PCM, MIPT).
+
 Idea, supervisor, pipeline developer: [Evgenii Olekhnovich](https://scholar.google.ru/citations?user=RA9ItlsAAAAJ&hl=ru) (Lopukhin FRCC PCM).
 
 This approach was first used for strain profiling in our publication:
