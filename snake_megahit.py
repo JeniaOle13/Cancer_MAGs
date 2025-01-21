@@ -7,13 +7,13 @@ samples = [s.split('/')[-1].split('_R')[0] for s in glob.glob(work_dir + '/reads
 print(samples)
 
 rule run_megahit:
-	input: expand("{work_dir}/analysis/megahit/{sample}/final.contigs.fa", sample = samples, work_dir = work_dir)
+	input: 
+		expand("{work_dir}/analysis/megahit/{sample}/final.contigs.fa", sample = samples, work_dir = work_dir)
 
 rule megahit:
-	input:
-            R1 = "{work_dir}/reads/raw__filtered/{sample}_R1.fastq.gz",
-            R2 = "{work_dir}/reads/raw__filtered/{sample}_R2.fastq.gz"
-        # params: 
+	input: 
+		R1 = "{work_dir}/reads/raw__filtered/{sample}_R1.fastq.gz", 
+		R2 = "{work_dir}/reads/raw__filtered/{sample}_R2.fastq.gz"
 	threads: 10
 	output: "{work_dir}/analysis/megahit/{sample}/final.contigs.fa"
 	conda: "/path/to/envs/megahit.yaml"

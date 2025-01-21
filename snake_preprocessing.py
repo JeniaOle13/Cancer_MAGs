@@ -11,7 +11,7 @@ print("samples:", samples)
 hisat2_index = 'path/to/directory/with/index'
 
 # run preprocessing pipeline
-rule run_preproc:
+rule run_preproc: 
     input: expand("{work_dir}/reads/raw__filtered/{sample}_R1.fastq.gz", sample = samples, work_dir = work_dir), expand("{work_dir}/reads/raw__filtered/{sample}_R2.fastq.gz", sample = samples, work_dir = work_dir)
 
 # gzip'ing obtained reads
