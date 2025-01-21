@@ -134,7 +134,7 @@ Results will be storage in folder:
 |high-quality MAGs sequences (n=9,156)|7.4 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/high-quality.tar.gz)|
 |non-redundant MAGs catalog (n = 3,816)|2.7 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/dereplicated.tar.gz)|
 |Merged non-redundant MAGs catalog|2.7 GB|[Zenodo](https://zenodo.org/records/14701025/files/dereplicated.tar.gz?download=1); [Figshare](https://figshare.com/ndownloader/files/51718619)|
-|Mapping file (MAG>contig)|43 MB|[Zenodo](https://zenodo.org/records/14701025/files/mapping.tsv?download=1) [Figshare](https://figshare.com/ndownloader/files/51718547)|
+|Mapping file (MAG>contig)|43 MB|[Zenodo](https://zenodo.org/records/14701025/files/mapping.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51718547)|
 |Dereplication statistic|940 KB|[Zenodo](https://zenodo.org/records/14358262/files/dereplication_stats.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51079292)|
 |Taxonomic annotation and assembly quality statistic|645 KB|[Zenodo](https://zenodo.org/records/14358262/files/statistics.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51062807)|
 |DNA extraction and sequencing methods|13 KB|[Zenodo](https://zenodo.org/records/14358262/files/methods.docx?download=1); [Figshare](https://figshare.com/ndownloader/files/51081881)|
