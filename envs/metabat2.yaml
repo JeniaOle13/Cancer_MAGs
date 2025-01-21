@@ -1,0 +1,14 @@
+name: metabat2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - libgcc-ng=14.1.0=h77fa898_0
+  - libgomp=14.1.0=h77fa898_0
+  - libxcrypt=4.4.36=hd590300_1
+  - metabat2=2.12.1=1
+  - perl=5.32.1=7_hd590300_perl5
+prefix: /home/kanaevavera/miniforge3/envs/metabat2
