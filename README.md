@@ -18,7 +18,7 @@ A non-redundant catalog of 3,816 genomes with at least 75% completeness and no m
 |[samtools](https://github.com/samtools/samtools) v1.17|[https://doi.org/10.1093/gigascience/giab008](https://doi.org/10.1093/gigascience/giab008)|
 |[bedtools](https://github.com/arq5x/bedtools2) v2.31.0|[https://doi.org/10.1093/bioinformatics/btq033](https://doi.org/10.1093/bioinformatics/btq033)|
 |[pigz](https://github.com/madler/pigz) v2.6| - |
-|[fastp](https://github.com/OpenGene/fastp) v0.23.4|[https://doi.org/10.1093/bioinformatics/bty56](https://doi.org/10.1093/bioinformatics/bty56)|
+|[fastp](https://github.com/OpenGene/fastp) v0.23.4|[https://doi.org/10.1002/imt2.107](https://doi.org/10.1002/imt2.107)|
 |[hisat2](https://github.com/DaehwanKimLab/hisat2) v2.2.1|[https://doi.org/10.1038/s41587-019-0201-4](https://doi.org/10.1038/s41587-019-0201-4)|
 |[bbmap](https://sourceforge.net/projects/bbmap/) v39.06| - |
 |[megahit](https://github.com/voutcn/megahit) v1.2.9|[https://doi.org/10.1093/bioinformatics/btv033](https://doi.org/10.1093/bioinformatics/btv033)|
