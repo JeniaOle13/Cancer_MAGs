@@ -1,4 +1,4 @@
-﻿# Catalog of stool metagenome-assembled genomes from patients with different cancer types
+# Catalog of stool metagenome-assembled genomes from patients with different cancer types
 
 ## Description
 A non-redundant catalog of 3,816 genomes with at least 75% completeness and no more than 15% contamination assembled from metagenomes has been introduced. Samples of 976 metagenomes from 14 studies were obtained from patients receiving immunotherapy for the treatment of different types of cancers.
@@ -26,6 +26,8 @@ A non-redundant catalog of 3,816 genomes with at least 75% completeness and no m
 |[maxbin2](https://sourceforge.net/projects/maxbin2/) v2.2.7|[https://doi.org/10.1093/bioinformatics/btv638](https://doi.org/10.1093/bioinformatics/btv638)|
 |[semibin2](https://github.com/BigDataBiology/SemiBin) v2.1.0|[https://doi.org/10.1093/bioinformatics/btad209](https://doi.org/10.1093/bioinformatics/btad209)|
 |[dastool](https://github.com/cmks/DAS_Tool) v1.1.7|[https://doi.org/10.1038/s41564-018-0171-1](https://doi.org/10.1038/s41564-018-0171-1)|
+|[drep](https://github.com/MrOlm/drep) v3.4.5|[https://doi.org/10.1038/ismej.2017.126](https://doi.org/10.1038/ismej.2017.126)|
+|[gtdbtk](https://github.com/Ecogenomics/GTDBTk) v2.1.1 |[https://doi.org/10.1093/bioinformatics/btz848](https://doi.org/10.1093/bioinformatics/btz848)|
 
 ## Computational pipeline
 The `conda` and/or `mamba` package management systems must be installed to run computational scripts. It is also required to create a snakemake working environment.
