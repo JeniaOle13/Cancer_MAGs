@@ -55,7 +55,7 @@ rule hisat2_remove_human:
     log:
         "{work_dir}/reports/hisat2/{sample}.report",
     params:
-        extra = "--very-sensitive",
+        extra = "--very-sensitive --non-deterministic",
     threads: 10
     wrapper:
         "v2.6.0/bio/hisat2/align"
