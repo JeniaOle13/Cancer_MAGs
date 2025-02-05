@@ -11,7 +11,7 @@ rule run_map:
         input: expand("{work_dir}/analysis/megahit/{sample}/{sample}_sorted.bam", sample = samples, work_dir=work_dir)
 
 # sort bam file
-rule sort_unmapped_bam:
+rule sort bam:
         input: "{work_dir}/analysis/megahit/{sample}/{sample}.bam"
         output: "{work_dir}/analysis/megahit/{sample}/{sample}_sorted.bam"
         conda: "/data12/bio/runs-jeniaole/snake-files/MAG_assembly_pipeline/envs/samtools.yaml"
@@ -22,7 +22,7 @@ rule sam_to_bam:
         input: "{work_dir}/analysis/megahit/{sample}/{sample}.sam"
         output: temp("{work_dir}/analysis/megahit/{sample}/{sample}.bam")
         conda: "/data12/bio/runs-jeniaole/snake-files/MAG_assembly_pipeline/envs/samtools.yaml"
-        shell: "samtools view -Sb -F 0x4 {input} > {output}"
+        shell: "samtools view -Sb {input} > {output}"
 
 # map reads to hisat2
 rule hisat2_map:
