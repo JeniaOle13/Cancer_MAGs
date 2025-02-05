@@ -44,7 +44,7 @@ rule get_unmapped_bam:
     conda: 
         "/path/to/envs/samtools.yaml"
     shell:
-        "samtools view -b -f 12 -F 256 {input} | samtools sort > {output}"
+        "samtools view -b -f 4 {input} | samtools sort > {output}"
 
 # HiSat2: remove human
 rule hisat2_remove_human:
