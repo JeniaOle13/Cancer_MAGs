@@ -135,9 +135,9 @@ Results will be storage in folder:
 ## DATA
 |Description|Size|Links|
 |---|---|---|
-|all MAGs sequences (n=13,227)|11 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/all.tar.gz)|
-|high-quality MAGs sequences (n=9,156)|7.4 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/high-quality.tar.gz)|
-|non-redundant MAGs catalog (n = 3,816)|2.7 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/dereplicated.tar.gz)|
+|all MAGs sequences (n=13,227)|11 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/)|
+|high-quality MAGs sequences (n=9,156)|7.4 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/)|
+|non-redundant MAGs catalog (n = 3,816)|2.7 GB|[Lopukhin FRCC PCM FTP](http://download.ripcm.com/mag_catalog/)|
 |Merged non-redundant MAGs catalog|2.7 GB|[Zenodo](https://zenodo.org/records/14701025/files/dereplicated.tar.gz?download=1); [Figshare](https://figshare.com/ndownloader/files/51718619)|
 |Mapping file (MAG>contig)|43 MB|[Zenodo](https://zenodo.org/records/14701025/files/mapping.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51718547)|
 |Dereplication statistic|940 KB|[Zenodo](https://zenodo.org/records/14358262/files/dereplication_stats.tsv?download=1); [Figshare](https://figshare.com/ndownloader/files/51079292)|
