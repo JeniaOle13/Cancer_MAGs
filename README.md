@@ -121,7 +121,7 @@ Results:
 >/path/to/data/analysis/drep/dereplicated_genomes/*fa
 
 ### 5. Taxonomic annotation
-These required gtdb-tk tool which must be installed via conda or mamba:
+These required `gtdb-tk` tool which must be installed via conda or mamba:
 
 > conda create -n gtdbtk -c bioconda gtdbtk
 
