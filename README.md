@@ -14,7 +14,8 @@ A non-redundant catalog of 3,816 genomes with at least 75% completeness and no m
 |---|---|
 |[conda](https://github.com/conda/conda) v23.7.4| - |
 |[mamba](https://github.com/mamba-org/mamba) v1.5.1| - |
-|[snakemake](https://github.com/snakemake/snakemake) v7.32.4 |[https://doi.org/10.12688/f1000research.29032.2](https://doi.org/10.12688/f1000research.29032.2)|
+|[snakemake](https://github.com/snakemake/snakemake) v7.32.4|[https://doi.org/10.12688/f1000research.29032.2](https://doi.org/10.12688/f1000research.29032.2)|
+|[kingfisher](https://github.com/wwood/kingfisher-download) v0.4.1| - |
 |[samtools](https://github.com/samtools/samtools) v1.17|[https://doi.org/10.1093/gigascience/giab008](https://doi.org/10.1093/gigascience/giab008)|
 |[bedtools](https://github.com/arq5x/bedtools2) v2.31.0|[https://doi.org/10.1093/bioinformatics/btq033](https://doi.org/10.1093/bioinformatics/btq033)|
 |[pigz](https://github.com/madler/pigz) v2.6| - |
@@ -27,7 +28,10 @@ A non-redundant catalog of 3,816 genomes with at least 75% completeness and no m
 |[semibin2](https://github.com/BigDataBiology/SemiBin) v2.1.0|[https://doi.org/10.1093/bioinformatics/btad209](https://doi.org/10.1093/bioinformatics/btad209)|
 |[dastool](https://github.com/cmks/DAS_Tool) v1.1.7|[https://doi.org/10.1038/s41564-018-0171-1](https://doi.org/10.1038/s41564-018-0171-1)|
 |[drep](https://github.com/MrOlm/drep) v3.4.5|[https://doi.org/10.1038/ismej.2017.126](https://doi.org/10.1038/ismej.2017.126)|
-|[gtdbtk](https://github.com/Ecogenomics/GTDBTk) v2.1.1 |[https://doi.org/10.1093/bioinformatics/btz848](https://doi.org/10.1093/bioinformatics/btz848)|
+|[gtdbtk](https://github.com/Ecogenomics/GTDBTk) v2.1.1|[https://doi.org/10.1093/bioinformatics/btz848](https://doi.org/10.1093/bioinformatics/btz848)|
+|[FastTree](https://morgannprice.github.io/fasttree/) v2.1.11|[https://doi.org/10.1371/journal.pone.0009490](https://doi.org/10.1371/journal.pone.0009490)|
+|[QIIME2](https://view.qiime2.org/) v2022.8.3|[https://doi.org/10.1038/s41587-019-0209-9](https://doi.org/10.1038/s41587-019-0209-9)|
+|[Empress](https://github.com/biocore/empress) |[https://doi.org/10.1128/msystems.01216-20](https://doi.org/10.1128/msystems.01216-20)|
 
 ## Computational pipeline
 The `conda` and/or `mamba` package management systems must be installed to run computational scripts. It is also required to create a snakemake working environment.
