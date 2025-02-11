@@ -169,12 +169,10 @@ The next step involves the de novo construction of an unrooted tree using the `f
 To run phylogenetic tree construction execute in command line with activated fasttree conda environment:
 > fasttree < /path/to/data/analysis/phylo_tree/checkm_alignment_woRef > /path/to/data/analysis/phylo_tree/fasttree_aa
 
-The following script utilizes `Qiime2` and its `Empress` package to generate a tree visualization. This implementation facilitates the acquisition of a rooted tree file in `Qiime2` format and the visualization of the data in the `.qzv` format. The visualization can be accessed via the `Qiime2` viewer at https://view.qiime2.org/.
+The following script utilizes `Qiime2` and its `Empress` package to generate a tree visualization. This implementation facilitates the acquisition of a rooted tree file in `Qiime2` format and the visualization of the data in the `.qzv` format. The visualization can be accessed via the `Qiime2` viewer at https://view.qiime2.org/. `Qiime2` tool must be installed via `conda` or `mamba` (Instructions for installing latest versions of QIIME2 can be found at the following URL: https://docs.qiime2.org/):
+> wget https://data.qiime2.org/distro/core/qiime2-2022.8-py38-linux-conda.yml
 
-`Qiime2` tool must be installed via `conda` or `mamba`:
-> wget https://data.qiime2.org/distro/core/qiime2-2022.2-py38-linux-conda.yml
-
-> conda env create -n qiime2-2022.2 --file qiime2-2022.2-py38-linux-conda.yml
+> conda env create -n qiime2-2022.8 --file qiime2-2022.2-py38-linux-conda.yml
 
 > conda activate qiime2-2022.2
 
