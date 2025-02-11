@@ -143,14 +143,14 @@ To run taxonomic annotation of resulting metagenome-assembled genome catalog exe
 Results will be storage in folder:
 > /path/to/data/analysis/gtdbtk/classify/
 
-### 6. Aggregation the MAGs metadata:
+### 7. Aggregation the MAGs metadata:
 This item provides a Python script that summarizes the results of the previous steps.  `make_mags_meta.py` generates the metadata table for metagenome-assembled genomes (MAGs), including genome qualities and taxonomy annotations. Pass the full path to your project's `/path/to/data/analysis` folder to the `--work_dir` flag.
 
 To execute run in command line:
 
 > python make_mags_meta.py --work_dir /path/to/data/analysis
 
-### 7. Phylogenetic tree construction and visualisation:
+### 8. Phylogenetic tree construction and visualisation:
 These require the `CheckM` tool which is included in the `dRep` `conda` environment. The `checkm_tree.sh` script is employed to generate protein translation to the dereplicated genomes, followed by the execution of multiple sequence alignment of reference genomes and MAGs sequences. These processes facilitate the inference of a *de novo* genome tree. It is imperative to provide the full path to the `/path/to/data/analysis` folder of the project for script execution.
 
 To run placing MAGs in the reference genome tree described above execute in command line with activated `drep` `conda` environment:
