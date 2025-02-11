@@ -1,13 +1,13 @@
 # Catalog of stool metagenome-assembled genomes from patients with different cancer types
 
 ## Description
-A non-redundant catalog of 3,816 genomes with at least 75% completeness and no more than 15% contamination assembled from metagenomes has been introduced. Samples of 976 metagenomes from 14 studies were obtained from patients receiving immunotherapy for the treatment of different types of cancers.
+A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness and 2.13 ± 2.77% contamination assembled from metagenomes has been introduced. Samples of 976 metagenomes from 14 studies were obtained from patients receiving immunotherapy for the treatment of different types of cancers.
 
 ### Accession codes of the used stool metagenome sequences
 [PRJNA397906](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA397906), [PRJEB22893](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22893), [PRJNA399742](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA399742), [PRJNA678737](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA678737), [PRJNA672867](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA672867), [PRJNA770295](https://www.ncbi.nlm.nih.gov/bioproject/770295), [PRJEB43119](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB43119), [PRJNA762360](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA762360), [PRJNA1011235](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1011235), [PRJNA928744](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA928744), [PRJNA615114](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA615114), [PRJNA866654](https://www.ncbi.nlm.nih.gov/bioproject/866654), [PRJNA494824](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA494824), [PRJEB49516](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB49516).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJy0hY1mi8HOGaU633bZqRL4Laruz9jO__GE7g7XHasyAmuzqyUwLX-puD2bmTM6VaRFnqXBFjwauj3bEqOZLBm_F5oMPfhnmXdtSul6V-A1TEzylWpLMmc4m0r0xOHFgjh0EQ?key=1_Rc7IYQvnC-DPwR2bAX7g)
-**A phylogenetic tree of 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
+**Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
 
 ## Dependencies for computational pipeline
 | **Tool**  | **Publication**  |
