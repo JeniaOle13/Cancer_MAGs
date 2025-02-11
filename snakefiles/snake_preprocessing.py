@@ -63,7 +63,7 @@ rule hisat2_remove_human:
 # fastp: quality filtering with average Q > 30 and autodetection of adapter content
 rule fastp_quality_filtering:
     input:
-        sample = ["{work_dir}/reads/raw/{sample}_R1.fastq.gz", "{work_dir}/reads/raw/{sample}_R2.fastq.gz"]
+        sample = ["{work_dir}/reads/raw/{sample}_1.fastq.gz", "{work_dir}/reads/raw/{sample}_2.fastq.gz"]
     output:
         trimmed = temp(["{work_dir}/reads/raw__fastp/{sample}_R1.fastq.gz", "{work_dir}/reads/raw__fastp/{sample}_R2.fastq.gz"]),
         html = "{work_dir}/reports/fastp/{sample}_fastp.html",
