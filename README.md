@@ -174,7 +174,7 @@ The following script utilizes `Qiime2` and its `Empress` package to generate a t
 
 > conda env create -n qiime2-2022.8 --file qiime2-2022.2-py38-linux-conda.yml
 
-> conda activate qiime2-2022.2
+> conda activate qiime2-2022.8
 
 `Empress` should be installed using `pip` with activated `Qiime2` `conda` environment:
 > pip install empress
