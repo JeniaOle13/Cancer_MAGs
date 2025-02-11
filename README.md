@@ -44,7 +44,7 @@ Before running scripts, rewrite `work_dir` path the paths to your project in all
 
 The organization of folders inside the project folder should look like this:
 
-> /path/to/data/reads/raw/{sample}_R*.fastq.gz
+> /path/to/data/reads/raw/{sample}_*.fastq.gz
 
 All computations were performed on the Lopukhin FRCC PCM cluster with 2 x AMD EPYC 7763 and 2 Tb RAM.
 
