@@ -48,7 +48,14 @@ The organization of folders inside the project folder should look like this:
 
 All computations were performed on the Lopukhin FRCC PCM cluster with 2 x AMD EPYC 7763 and 2 Tb RAM.
 
-### 1. Pre-processing
+### 1. Download samples from SRA
+The IDs of the metagenomic samples used in the study are provided in the `sampleid.txt` file. Use `snake_download.py` to download files from the repository. To start the download with 60 threads, use following command after activating `snakemake` environment:
+
+> snakemake -s snake_download_test.py -k -p --latency-wait 150 -j 60 --use-conda run_download
+
+All downloaded files will be stored in `path/to/data/reads/raw` directory.
+
+### 2. Pre-processing
 Metagenomic reads will be filtered using fastp with the following parameters `--detect_adapter_for_pe` `--overrepresentation_analysis` `--correction --dup_calc_accuracy 6` `--average_qual 30`. Quality controlled reads are mapped to the human genome using `hisat2` tool with `--very-sensitive` parameter. After that, `samtools` were used for filtering unmapped reads, `bedtools` for converting unmapped `bam` files to the `fastq` format as well as `pigz` gzipping the resulting `fastq` files. The results of the module will be gzipped fastq files, while all intermediate files will be removed:
 
 > /path/to/data/reads/raw__filtered/{sample}_R*.fastq.gz
@@ -63,7 +70,7 @@ The script is run from the command line with the activated snakemake environment
 
 > snakemake -s snake_preprocessing.py -k -p --latency-wait 150 -j 10 --use-conda run_preproc
 
-### 2. Assembly
+### 3. Assembly
 Assembly step was performed using `MEGAHIT` short reads assembler with default parameters. To perform a metagenomic assembly, run the script by command line with the snakemake environment activated:
 
 > snakemake -s snake_megahit.py -k -p --latency-wait 150 -j 10 --use-conda run_megahit
@@ -72,7 +79,7 @@ Results were storage in separation folder:
 
 > /path/to/data/analysis/megahit/{sample}/final.contigs.fa
 
-### 3. Binning
+### 4. Binning
 Metagenomic binning is performed in two steps. The first step will involve mapping pre-processed reads obtained on the step 1 to the metagenomic assembly obtained on the step 2. Firstly, all contigs with length less than 1000 bp are removed from the `final.contig.fa` files using the `reformat.sh` script from the `bbmap` package. The resulting filtered file `contigs.fa` is used by the `hisat2-build` program to build a reference to perform short read mapping. After that, `hisat2` with `--very-sensitive` flag was used for mapping reads to reference as well as `samtools` used for converting resulting `sam` files to sorted `bam` files. All intermediate files were removed from hard disk space.
 
 To perform short reads mapping to metagenomic contigs, execute on the command line with the `snakemake` environment activated:
@@ -99,7 +106,7 @@ Also an optimized, non-redundant set of bins will be storage:
 
 >/path/to/data/analysis/dastool/{sample}/{sample}_DASTool_bins/*fa
 
-### 4. Dereplication:
+### 5. Dereplication:
 In order to prepare the received bins for dereplication, it is necessary to run a script for renamed bins and forming links for `dRep`. The code is designed to create a folder named `/path/to/data/analysis/dastool_bins` and to establish symbolic links to bins that bear unified names. These names reflect the sample ID and the name of the binning program that generated the bin. Flag `--work_dir` accepts the full path to the `/path/to/data/analysis` folder of your project.
 
 To run script execute in command line:
@@ -120,7 +127,7 @@ Results:
 
 >/path/to/data/analysis/drep/dereplicated_genomes/*fa
 
-### 5. Taxonomic annotation
+### 6. Taxonomic annotation
 These required `gtdb-tk` tool which must be installed via conda or mamba:
 
 > conda create -n gtdbtk -c bioconda gtdbtk
