@@ -51,7 +51,7 @@ All computations were performed on the Lopukhin FRCC PCM cluster with 2 x AMD EP
 ### 1. Download samples from SRA
 The IDs of the metagenomic samples used in the study are provided in the `sampleid.txt` file. Use `snake_download.py` to download files from the repository. To start the download with 60 threads, use following command after activating `snakemake` environment:
 
-> snakemake -s snake_download_test.py -k -p --latency-wait 150 -j 60 --use-conda run_download
+> snakemake -s snake_download_test.py -k -p --latency-wait 150 -j 10 --use-conda run_download
 
 All downloaded files will be stored in `path/to/data/reads/raw` directory.
 
@@ -142,6 +142,45 @@ To run taxonomic annotation of resulting metagenome-assembled genome catalog exe
 
 Results will be storage in folder:
 > /path/to/data/analysis/gtdbtk/classify/
+
+### 6. Aggregation the MAGs metadata:
+This item provides a Python script that summarizes the results of the previous steps.  `make_mags_meta.py` generates the metadata table for metagenome-assembled genomes (MAGs), including genome qualities and taxonomy annotations. Pass the full path to your project's `/path/to/data/analysis` folder to the `--work_dir` flag.
+
+To execute run in command line:
+
+> python make_mags_meta.py --work_dir /path/to/data/analysis
+
+### 7. Phylogenetic tree construction and visualisation:
+These require the `CheckM` tool which is included in the `dRep` `conda` environment. The `checkm_tree.sh` script is employed to generate protein translation to the dereplicated genomes, followed by the execution of multiple sequence alignment of reference genomes and MAGs sequences. These processes facilitate the inference of a *de novo* genome tree. It is imperative to provide the full path to the `/path/to/data/analysis` folder of the project for script execution.
+
+To run placing MAGs in the reference genome tree described above execute in command line with activated `drep` `conda` environment:
+
+> bash checkm_tree.sh /path/to/data/analysis
+
+The subsequent step is essential for those who want to visualize only the MAGs without the reference genomes. The utilization of the `sed` command entails the elimination of the reference IMG bins from the `checkm_alignment` file, thereby giving rise to the `checkm_alignment_woRef` file:
+
+> sed '/>IMG/,+1 d' /path/to/data/analysis/phylo_tree/checkm_alignment > /path/to/data/analysis/phylo_tree/checkm_alignment_woRef
+
+The next step involves the de novo construction of an unrooted tree using the `fasttree` which must be installed via `conda` or `mamba`:
+
+> conda create -n fasttree -c bioconda fasttree
+> conda activate fasttree
+
+To run phylogenetic tree construction execute in command line with activated fasttree conda environment:
+> fasttree < /path/to/data/analysis/phylo_tree/checkm_alignment_woRef > /path/to/data/analysis/phylo_tree/fasttree_aa
+
+The following script utilizes `Qiime2` and its `Empress` package to generate a tree visualization. This implementation facilitates the acquisition of a rooted tree file in `Qiime2` format and the visualization of the data in the `.qzv` format. The visualization can be accessed via the `Qiime2` viewer at https://view.qiime2.org/.
+
+`Qiime2` tool must be installed via `conda` or `mamba`:
+> wget https://data.qiime2.org/distro/core/qiime2-2022.2-py38-linux-conda.yml
+> conda env create -n qiime2-2022.2 --file qiime2-2022.2-py38-linux-conda.yml
+> conda activate qiime2-2022.2
+
+`Empress` should be installed using `pip` with activated `Qiime2` `conda` environment:
+> pip install empress
+
+The script is necessary for the metadata file from step 6. Additionally, it is necessary to provide the full path to the `/path/to/data/analysis` folder of the project for script execution. To execute run in command line:
+> bash empress_vis.sh /path/to/data/analysis
 
 ## DATA
 |Description|Size|Links|
