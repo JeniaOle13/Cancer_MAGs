@@ -36,7 +36,7 @@ rule hisat2_map:
         threads: 10
         params: prefix = "{work_dir}/analysis/megahit/{sample}/contigs"
         conda: "/data12/bio/runs-jeniaole/snake-files/MAG_assembly_pipeline/envs/hisat2.yaml"
-        shell: "hisat2 --very-sensitive --non-deterministic -p {threads} -x {params.prefix} -1 {input.R1} -2 {input.R2} -S {output.sam} 2> {output.statistics}"
+        shell: "hisat2 --very-sensitive --no-unal --non-deterministic -p {threads} -x {params.prefix} -1 {input.R1} -2 {input.R2} -S {output.sam} 2> {output.statistics}"
 
 # get hisat2 index
 rule hisat2_index:
