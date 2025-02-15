@@ -30,7 +30,7 @@ A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness 
 |[drep](https://github.com/MrOlm/drep) v3.4.5|[https://doi.org/10.1038/ismej.2017.126](https://doi.org/10.1038/ismej.2017.126)|
 |[gtdbtk](https://github.com/Ecogenomics/GTDBTk) v2.1.1|[https://doi.org/10.1093/bioinformatics/btz848](https://doi.org/10.1093/bioinformatics/btz848)|
 |[fasttree](https://morgannprice.github.io/fasttree/) v2.1.11|[https://doi.org/10.1371/journal.pone.0009490](https://doi.org/10.1371/journal.pone.0009490)|
-|[qiime2](https://view.qiime2.org/) v2022.8.3|[https://doi.org/10.1038/s41587-019-0209-9](https://doi.org/10.1038/s41587-019-0209-9)|
+|[qiime2](https://github.com/qiime2/qiime2) v2022.8.3|[https://doi.org/10.1038/s41587-019-0209-9](https://doi.org/10.1038/s41587-019-0209-9)|
 |[empress](https://github.com/biocore/empress) v1.2.0|[https://doi.org/10.1128/msystems.01216-20](https://doi.org/10.1128/msystems.01216-20)|
 
 ## Computational pipeline
