@@ -180,7 +180,7 @@ The following script utilizes `Qiime2` and its `Empress` package to generate a t
 `Empress` should be installed using `pip` with activated `Qiime2` `conda` environment:
 > pip install empress
 
-The script is necessary for the metadata file from step 6. Additionally, it is necessary to provide the full path to the `/path/to/data/analysis` folder of the project for script execution. To execute run in command line:
+The script is necessary for the metadata file from step 7. Additionally, it is necessary to provide the full path to the `/path/to/data/analysis` folder of the project for script execution. To execute run in command line:
 > bash empress_vis.sh /path/to/data/analysis
 
 ## DATA
