@@ -3,11 +3,17 @@
 ## Description
 A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness and 2.13 ± 2.77% contamination assembled from metagenomes has been introduced. Samples of 976 metagenomes from 14 studies were obtained from patients receiving immunotherapy for the treatment of different types of cancers.
 
+Immune checkpoint inhibitors are a cancer treatment approach that aims to activate the body's own immunity against the tumor. This approach can fight cancer even in advanced stages. However, not every patient can benefit from immunotherapy. Numerous studies of patients undergoing cancer immunotherapy describe the influence of the gut microbiota on anti-tumor immunity and immunotherapy efficacy, as well as changes in the microbial profile of patients who respond to treatment and those who do not.
+
+Our computational pipeline makes a notable contribution to the expanding field of research investigating the role of the gut microbiome in cancer immunotherapy. Despite extensive studies of the microbiome in the context of melanoma, the gut microbiota of patients with other types of cancer remains poorly understood. The catalog of high-quality metagenome-assembled genomes (MAGs) we present here helps to fill this gap.
+
+The resulting catalog is valuable for studying the composition and functional characteristics of the microbiome, which may have significant potential implications for future microbiome research and the development of personalized approaches to cancer immunotherapy.
+
 ### Accession codes of the used stool metagenome sequences
 [PRJNA397906](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA397906), [PRJEB22893](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22893), [PRJNA399742](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA399742), [PRJNA678737](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA678737), [PRJNA672867](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA672867), [PRJNA770295](https://www.ncbi.nlm.nih.gov/bioproject/770295), [PRJEB43119](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB43119), [PRJNA762360](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA762360), [PRJNA1011235](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1011235), [PRJNA928744](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA928744), [PRJNA615114](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA615114), [PRJNA866654](https://www.ncbi.nlm.nih.gov/bioproject/866654), [PRJNA494824](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA494824), [PRJEB49516](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB49516).
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJy0hY1mi8HOGaU633bZqRL4Laruz9jO__GE7g7XHasyAmuzqyUwLX-puD2bmTM6VaRFnqXBFjwauj3bEqOZLBm_F5oMPfhnmXdtSul6V-A1TEzylWpLMmc4m0r0xOHFgjh0EQ?key=1_Rc7IYQvnC-DPwR2bAX7g)
-**Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
+![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/assembly_scheme.png)
+**Computational pipeline scheme for MAGs assembly.**
 
 ## Dependencies for computational pipeline
 | **Tool**  | **Publication**  |
@@ -182,6 +188,9 @@ The following script utilizes `Qiime2` and its `Empress` package to generate a t
 
 The script is necessary for the metadata file from step 7. Additionally, it is necessary to provide the full path to the `/path/to/data/analysis` folder of the project for script execution. To execute run in command line:
 > bash empress_vis.sh /path/to/data/analysis
+
+![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
+**Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
 
 ## DATA
 |Description|Size|Links|
