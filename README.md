@@ -1,5 +1,8 @@
 # Catalog of stool metagenome-assembled genomes from patients with different cancer types
 
+![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
+**Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
+
 ## Motivation
 Immune checkpoint inhibitors are a cancer treatment approach that aims to activate the body's own immunity against the tumor. This approach can fight cancer even in advanced stages. However, not every patient can benefit from immunotherapy. Numerous studies of patients undergoing cancer immunotherapy describe the influence of the gut microbiota on anti-tumor immunity and immunotherapy efficacy, as well as changes in the microbial profile of patients who respond to treatment and those who do not.
 
@@ -15,9 +18,6 @@ A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness 
 
 ### Computational pipeline
 Description of computational steps is available at https://github.com/JeniaOle13/Cancer_MAGs/blob/main/PIPELINE.md.
-
-![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
-**Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
 
 ## DATA
 |Description|Size|Links|
