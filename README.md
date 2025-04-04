@@ -6,10 +6,10 @@
 ## Motivation
 Immune checkpoint inhibitors (ICIs) represent a transformative approach in oncology, harnessing the body’s immune system to target tumors—even in advanced-stage disease. However, response rates to immunotherapy remain variable, with many patients deriving limited clinical benefit. A growing body of evidence highlights the gut microbiome as a key modulator of anti-tumor immunity and ICI efficacy. Studies have identified distinct microbial signatures associated with treatment responders versus non-responders, suggesting the microbiome may serve as a predictive biomarker or therapeutic target. Our study addresses a critical gap in this field. While the gut microbiome has been extensively characterized in melanoma patients under immunotherapy, its role in other cancer types remains poorly understood. To bridge this knowledge gap, we present a comprehensive catalog of high-quality metagenome-assembled genomes (MAGs) derived from stool samples of patients across diverse malignancies.
 
-Key Advancements:
+#### Key Advancements:
 - Computational Pipeline: Our robust bioinformatics framework enables high-resolution profiling of microbial strains, pathways, and functional potential linked to ICI outcomes.
 
-Translational Relevance:
+#### Translational Relevance:
 
 - Discovery of microbial biomarkers for patient stratification
 - Mechanistic insights into microbiome-immune crosstalk
