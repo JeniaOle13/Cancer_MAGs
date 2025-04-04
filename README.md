@@ -4,11 +4,18 @@
 **Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
 
 ## Motivation
-Immune checkpoint inhibitors are a cancer treatment approach that aims to activate the body's own immunity against the tumor. This approach can fight cancer even in advanced stages. However, not every patient can benefit from immunotherapy. Numerous studies of patients undergoing cancer immunotherapy describe the influence of the gut microbiota on anti-tumor immunity and immunotherapy efficacy, as well as changes in the microbial profile of patients who respond to treatment and those who do not.
+Immune checkpoint inhibitors (ICIs) represent a transformative approach in oncology, harnessing the body’s immune system to target tumors—even in advanced-stage disease. However, response rates to immunotherapy remain variable, with many patients deriving limited clinical benefit. A growing body of evidence highlights the gut microbiome as a key modulator of anti-tumor immunity and ICI efficacy. Studies have identified distinct microbial signatures associated with treatment responders versus non-responders, suggesting the microbiome may serve as a predictive biomarker or therapeutic target. Our study addresses a critical gap in this field. While the gut microbiome has been extensively characterized in melanoma patients under immunotherapy, its role in other cancer types remains poorly understood. To bridge this knowledge gap, we present a comprehensive catalog of high-quality metagenome-assembled genomes (MAGs) derived from stool samples of patients across diverse malignancies.
 
-Our computational pipeline makes a notable contribution to the expanding field of research investigating the role of the gut microbiome in cancer immunotherapy. Despite extensive studies of the microbiome in the context of melanoma, the gut microbiota of patients with other types of cancer remains poorly understood. The catalog of high-quality metagenome-assembled genomes (MAGs) we present here helps to fill this gap.
+Key Advancements:
+- Computational Pipeline: Our robust bioinformatics framework enables high-resolution profiling of microbial strains, pathways, and functional potential linked to ICI outcomes.
 
-The resulting catalog is valuable for studying the composition and functional characteristics of the microbiome, which may have significant potential implications for future microbiome research and the development of personalized approaches to cancer immunotherapy.
+Translational Relevance:
+
+- Discovery of microbial biomarkers for patient stratification
+- Mechanistic insights into microbiome-immune crosstalk
+- Development of personalized microbiome-based adjuvants (e.g., probiotics, fecal transplants)
+
+By elucidating the interplay between gut microbiota and immunotherapy responsiveness beyond melanoma, this work lays the foundation for novel strategies to enhance cancer treatment efficacy.
 
 ## Description
 A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness and 2.13 ± 2.77% contamination assembled from metagenomes has been introduced. Samples of 976 metagenomes from 14 studies were obtained from patients receiving immunotherapy for the treatment of different types of cancers.
