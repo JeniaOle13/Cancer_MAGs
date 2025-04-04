@@ -13,7 +13,8 @@ A non-redundant catalog of 3,816 genomes with average 91.9 ± 6.8% completeness 
 ### Accession codes of the used stool metagenome sequences
 [PRJNA397906](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA397906), [PRJEB22893](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22893), [PRJNA399742](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA399742), [PRJNA678737](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA678737), [PRJNA672867](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA672867), [PRJNA770295](https://www.ncbi.nlm.nih.gov/bioproject/770295), [PRJEB43119](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB43119), [PRJNA762360](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA762360), [PRJNA1011235](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1011235), [PRJNA928744](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA928744), [PRJNA615114](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA615114), [PRJNA866654](https://www.ncbi.nlm.nih.gov/bioproject/866654), [PRJNA494824](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA494824), [PRJEB49516](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB49516).
 
-[Computational pipeline](https://github.com/JeniaOle13/Cancer_MAGs/blob/main/PIPELINE.md)
+### Computational pipeline
+Description of computational steps is available at https://github.com/JeniaOle13/Cancer_MAGs/blob/main/PIPELINE.md.
 
 ![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
 **Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
