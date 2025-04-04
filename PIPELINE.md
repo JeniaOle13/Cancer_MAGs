@@ -25,7 +25,7 @@
 |[qiime2](https://github.com/qiime2/qiime2) v2022.8.3|[https://doi.org/10.1038/s41587-019-0209-9](https://doi.org/10.1038/s41587-019-0209-9)|
 |[empress](https://github.com/biocore/empress) v1.2.0|[https://doi.org/10.1128/msystems.01216-20](https://doi.org/10.1128/msystems.01216-20)|
 
-## Computational pipeline
+## Description
 The `conda` and/or `mamba` package management systems must be installed to run computational scripts. It is also required to create a snakemake working environment.
 
 > conda create -n snakemake -c bioconda snakemake
