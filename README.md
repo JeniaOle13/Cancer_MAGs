@@ -1,9 +1,9 @@
 # Catalog of stool metagenome-assembled genomes from patients with different cancer types
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
 **Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Motivation
 Immune checkpoint inhibitors (ICIs) represent a transformative approach in oncology, harnessing the body’s immune system to target tumors—even in advanced-stage disease. However, response rates to immunotherapy remain variable, with many patients deriving limited clinical benefit. A growing body of evidence highlights the gut microbiome as a key modulator of anti-tumor immunity and ICI efficacy. Studies have identified distinct microbial signatures associated with treatment responders versus non-responders, suggesting the microbiome may serve as a predictive biomarker or therapeutic target. While the gut microbiome has been extensively characterized in melanoma patients under immunotherapy, its role in other cancer types remains poorly understood. To bridge this knowledge gap, we present a comprehensive catalog of high-quality metagenome-assembled genomes (MAGs) derived from stool samples of patients across diverse malignancies.
