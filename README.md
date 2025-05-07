@@ -76,3 +76,6 @@ This approach was first used for strain profiling in our publication:
 
 ## Fundings:
 Financial support for this study was provided by the Russian Science Foundation under the grant #22-75-10029 (https://rscf.ru/project/22-75-10029/).
+
+## License
+This project is licensed under the MIT License.
