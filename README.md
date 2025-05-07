@@ -1,5 +1,7 @@
 # Catalog of stool metagenome-assembled genomes from patients with different cancer types
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ![](https://github.com/kanaevavera/Cancer_MAGs/blob/main/catalog_picture.png)
 **Approximate maximum likelihood phylogenetic tree generated using CheckM with 43 AA marker sequences and 3,816 MAGs assembled from the stool metagenomes of cancer patients.**
 
