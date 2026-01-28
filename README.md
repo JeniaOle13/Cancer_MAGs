@@ -73,7 +73,10 @@ Idea, supervisor, pipeline developer: [Evgenii Olekhnovich](https://scholar.goog
 
 ## Related Publications
 
-- **Zakharevich et al.** "Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy." Life Science Alliance 7.5 (2024).  
+- **Olekhnovich et al.** *Consistent Stool Metagenomic Biomarkers Associated with the Response To Melanoma Immunotherapy.* mSystems 8.2 (2023).
+  DOI: [https://doi.org/10.1128/msystems.01023-22](https://doi.org/10.1128/msystems.01023-22)
+
+- **Zakharevich et al.** *Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy.* Life Science Alliance 7.5 (2024).  
   DOI: [https://doi.org/10.26508/lsa.202302480](https://doi.org/10.26508/lsa.202302480)
 
 - **Orletskaia et al.** *Ecological and functional stratification of the stool microbiome predicts response to immune checkpoint inhibitors across cancer types.* bioRxiv (2025).  
