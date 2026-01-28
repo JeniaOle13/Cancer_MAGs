@@ -71,9 +71,6 @@ MAGs assembly, pipeline developer: [Vera Kanaeva](https://scholar.google.ru/cita
 
 Idea, supervisor, pipeline developer: [Evgenii Olekhnovich](https://scholar.google.ru/citations?user=RA9ItlsAAAAJ&hl=ru) (Lopukhin FRCC PCM).
 
-This approach was first used for strain profiling in our publication:
-[Zakharevich, Natalia V., et al. "Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy." Life Science Alliance 7.5 (2024).](https://www.life-science-alliance.org/content/7/5/e202302480)
-
 ## Related Publications
 
 - **Zakharevich et al.** "Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy." Life Science Alliance 7.5 (2024).  
