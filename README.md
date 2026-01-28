@@ -75,7 +75,9 @@ This approach was first used for strain profiling in our publication:
 [Zakharevich, Natalia V., et al. "Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy." Life Science Alliance 7.5 (2024).](https://www.life-science-alliance.org/content/7/5/e202302480)
 
 ## Related Publications
-A preprint version of this study, detailing the catalog assembly and biomarker discovery, is publicly available on bioRxiv:
+
+- **Zakharevich et al.** "Systemic metabolic depletion of gut microbiome undermines responsiveness to melanoma immunotherapy." Life Science Alliance 7.5 (2024).  
+  DOI: [https://doi.org/10.26508/lsa.202302480](https://doi.org/10.26508/lsa.202302480)
 
 - **Orletskaia et al.** *Ecological and functional stratification of the stool microbiome predicts response to immune checkpoint inhibitors across cancer types.* bioRxiv (2025).  
   DOI: [https://doi.org/10.1101/2025.05.07.652660v2](https://www.biorxiv.org/content/10.1101/2025.05.07.652660v2)
