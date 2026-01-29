@@ -77,8 +77,7 @@ This MAG catalog was generated and analyzed as part of the following study:
 - **Orletskaia et al.** *Ecological and functional stratification of the stool microbiome predicts response to immune checkpoint inhibitors across cancer types.* bioRxiv (2025).  
   DOI: [https://doi.org/10.1101/2025.05.07.652660v2](https://www.biorxiv.org/content/10.1101/2025.05.07.652660v2)
 
-Link to the complete analysis repository:
-github.com/your_username/immunotherapy-microbiome-analysis
+Link to the complete analysis repository: https://github.com/JeniaOle13/cancer-biomarkers/
 
 ## Related Publications
 
